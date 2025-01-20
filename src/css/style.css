@@ -1,0 +1,233 @@
+body {
+    background-color: hsl(207, 100%, 98%);
+    font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Poppins", serif;
+    font-weight: 700;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4%;
+
+    img {
+        max-width: 20%;
+    }
+
+    button {
+        padding: 10px 35px;
+        color: hsl(322, 100%, 66%);
+        border: 1px solid;
+        border-radius: 20px;
+        cursor: pointer;
+        transition: 0.2s ease-in-out;
+    }
+
+    button:hover {
+        color: hsl(321, 100%, 78%);
+    }
+}
+
+main .intro {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+        h1 {
+            font-size: 2.7rem;
+        }
+
+        p {
+            font-size: 18px;
+            max-width: 550px;
+            padding: 35px 0;
+        }
+
+        button {
+            padding: 18px 53px;
+            color: hsl(207, 100%, 98%);
+            font-size: 18px;
+            background-color: hsl(322, 100%, 66%);
+            border-radius: 30px;
+            cursor: pointer;
+            margin-bottom: 50px;
+            transition: 0.2s ease-in-out;
+        }
+
+        button:hover {
+            background-color: hsl(321, 100%, 78%);
+        }
+
+        img {
+            width: 80%;
+            display: block;
+        }
+    }
+
+    .numbers {
+        display: flex;
+        justify-content: space-between;
+        width: 600px;
+        margin-top: 10%;
+
+        img {
+            width: 20%;
+        }
+
+        h3 {
+            font-size: 60px;
+            font-weight: 700;
+            padding-bottom: 5px;
+        }
+
+        p {
+            text-align: center;
+            opacity: 0.5;
+        }
+    }
+}
+
+main .product-advantages {
+    margin-top: 10%;
+
+    >section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-inline: 8%;
+        height: 70dvh;
+
+        img {
+            width: 45%;
+        }
+
+        .info {
+            h2 {
+                font-size: 40px;
+                padding-bottom: 15px;
+            }
+
+            p {
+                max-width: 78%;
+            }
+        }
+    }
+
+    section.flowing-conversations {
+        gap: 10%;
+
+        p {
+            max-width: 100%;
+        }
+    }
+}
+
+main .invite {
+    height: 70dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(../images/bg-footer-top-desktop.svg) no-repeat 0 100%/contain;
+
+    h2 {
+        font-size: 32px;
+        padding-bottom: 2%;
+    }
+
+    button {
+        padding: 18px 53px;
+        color:  hsl(207, 100%, 98%);
+        font-size: 18px;
+        background-color: hsl(322, 100%, 66%);
+        border-radius: 30px;
+        cursor: pointer;
+        margin-bottom: 50px;
+        transition: 0.2s ease-in-out;
+        margin-bottom: 10%;
+    }
+
+    button:hover {
+        background-color: hsl(321, 100%, 78%);
+    }
+}
+
+footer {
+    background-color: hsl(192, 100%, 9%);
+    color:  hsl(207, 100%, 98%);
+    height: 60dvh;
+    padding: 7% 10% 4%;
+    display: flex;
+    justify-content: space-between;
+    .company-info {
+        p {
+            max-width: 300px;
+            margin-block: 30px;
+        }
+        address {
+            img {
+                margin-right: 10px;
+            }
+        }
+        .social-media {
+            display: flex;
+            padding-top: 15%;
+            gap: 20px;
+            li .fa-facebook-square:hover {
+                color: #3171ca;
+            }
+            li .fa-instagram:hover {
+                color: #E54B79;
+            }
+            li .fa-twitter-square:hover {
+                color: #2ab6f3;
+            }
+        }
+    }
+    .newsletter {
+        h3 {
+            font-size: 25px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            padding-bottom: 20px;
+        }
+        p {
+            max-width: 370px;
+            padding-bottom: 35px;
+        }
+        form {
+            display: flex;
+            gap: 5%;
+            input {
+                padding: 10px 40% 10px 10px;
+                border-radius: 5px;
+            }
+            button {
+                padding: 10px 20px;
+                background-color: hsl(322, 100%, 66%);
+                color: hsl(207, 100%, 98%);
+                cursor: pointer;
+                border-radius: 5px;
+                font-size: 18px;
+            }
+            button:hover {
+                background-color: hsl(321, 100%, 78%);
+            }
+        }
+    }
+}
