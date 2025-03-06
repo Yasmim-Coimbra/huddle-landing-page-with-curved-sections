@@ -15,6 +15,8 @@ Usuários devem poder ver:
 
 - CSS
 
+- JavaScript (for the email form validation)
+
 ## Preview
 
 ### Desktop
