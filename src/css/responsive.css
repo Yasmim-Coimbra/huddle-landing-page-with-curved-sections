@@ -1,110 +1,99 @@
 @media (max-width: 860px) {
-    footer {
-        .newsletter {
-            margin-left: 30px;
-            form {
-                flex-direction: column;
-                gap: 15px;
-            }
-        }
-    }
+	footer {
+        gap: 40px;
+		.newsletter {
+			margin-bottom: 90px;
+			form {
+				flex-direction: column;
+				gap: 15px;
+				input {
+					height: 40px;
+				}
+			}
+		}
+	}
 }
 
 @media (max-width: 702px) {
-    main .intro {
-        .numbers {
-            flex-direction: column;
-            align-items: center;
-            .messages-sent {
-                margin-top: 22%;
-            }
-        }
-    }
-    main .product-advantages {
-        margin-top: 30%;   
-        >section {
-            gap: 10%;
-            flex-direction: column-reverse;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            img {
-                width: 70%;
-            }
-            .info {
-                p {
-                    max-width: 100%;
-                }
-            }
-        }
-        section.flowing-conversations {
-            flex-direction: column;
-        }
-    }
-    main .invite {
-        text-align: center;
-        background: url(../images/bg-footer-top-mobile.svg) no-repeat 0 100%/contain;
-        h2 {
-            padding-bottom: 10%;
-        }
-    }
-    footer {
-        height: 90dvh;
-        flex-direction: column-reverse;
-        justify-content: center;
-        gap: 15%;
-        .newsletter {
-            margin-left: 0;
-        }
-        .company-info {
-            .social-media {
-                padding-top: 5%;
-            }
-        }
-    }
+	main .intro {
+		.numbers {
+			flex-direction: column;
+			align-items: center;
+			.messages-sent {
+				margin-top: 22%;
+			}
+		}
+	}
+	main .product-advantages {
+		margin-top: 30%;
+		>section {
+			gap: 10%;
+			flex-direction: column-reverse;
+			align-items: center;
+			justify-content: center;
+			text-align: center;
+			img {
+				width: 70%;
+			}
+			.info {
+				p {
+					max-width: 100%;
+				}
+			}
+		}
+		section.flowing-conversations {
+			flex-direction: column;
+		}
+	}
+	main .invite {
+		text-align: center;
+		background: url(../images/bg-footer-top-mobile.svg) no-repeat 0 100% /contain;
+		h2 {
+			padding-bottom: 10%;
+		}
+	}
+	footer {
+		flex-direction: column-reverse;
+		justify-content: center;
+		gap: 15%;
+		.newsletter {
+			margin-left: 0;
+		}
+		.company-info {
+			.social-media {
+				padding-top: 5%;
+			}
+		}
+	}
 }
 
 @media (max-width: 576px) {
-    footer {
-        .newsletter {
-            button {
-                width: 40%;
-                align-self: flex-end;
-            }
-        }
-    }
+	footer {
+		.newsletter {
+			button {
+				width: 40%;
+				align-self: flex-end;
+			}
+		}
+	}
 }
 
 @media (max-width: 430px) {
-    footer {
-        height: 93dvh;
-        padding-top: 3%;
-    }
-}
-
-@media (max-width: 390px) {
-    footer {
-        height: 100dvh;
-    }
-}
-
-@media (max-width: 375px) {
-    footer {
-        height: 110dvh;
-    }
+	footer {
+		padding-top: 3%;
+	}
 }
 
 @media (max-width: 320px) {
-    main .product-advantages {    
-        >section {
-            height: 100dvh;
-        }
-    }
-    footer {
-        gap: 10%;
-        height: 150dvh;
-        button {
-            min-width: 60%;
-        }
-    }
+	main .product-advantages {
+		>section {
+			height: 100dvh;
+		}
+	}
+	footer {
+		gap: 10%;
+		button {
+			min-width: 60%;
+		}
+	}
 }
